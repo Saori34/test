@@ -51,8 +51,6 @@ public class Main {
 		System.out.println("Etes-vous sûr ? Y/N");
 		
 		sc.nextLine();//vidage de ligne
-		//et maintenant j'ecris n'importe quoi pour voir le commit
-	//tttrty
 		
 		confirm = sc.nextLine().toUpperCase();
 		if (!confirm.equals("Y") && !confirm.equals("N"))
